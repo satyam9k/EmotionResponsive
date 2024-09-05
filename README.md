@@ -2,29 +2,83 @@
 
 ## Overview
 
-This project is an Emotion Recognition and Music Recommendation System that uses facial emotion recognition, voice emotion detection, and a song recommendation mechanism based on the detected emotions. The system leverages several machine learning models for emotion detection and text transcription, and integrates audio and video processing functionalities.
+The Emotion Recognition and Music Recommendation System uses facial and voice emotion recognition to recommend songs based on the detected emotions. It integrates various models for emotion detection from both video and audio sources, and plays a song that matches the detected emotion.
 
 ## Features
 
-- **Facial Emotion Recognition**: Captures video and detects facial emotions using a pre-trained model.
-- **Voice Emotion Recognition**: Records audio, transcribes it to text, and predicts emotions from the transcribed text.
-- **Complex Emotion Recognition**: Combines facial and voice emotion detections to provide a final emotion result.
-- **Music Recommendation**: Recommends and plays a song based on the detected emotion.
+- Facial emotion recognition using a pre-trained model and OpenCV.
+- Voice emotion recognition using Whisper and a pre-trained emotion prediction model.
+- Music recommendation based on detected emotions.
+- Real-time video and audio capture with emotion detection.
+- Song playback with controls.
 
-## Requirements
+## Components
 
-- Python 3.x
-- Required Python packages (install using `pip install -r requirements.txt`):
-  - OpenCV
-  - Numpy
-  - Pygame
-  - TensorFlow
-  - Keras
-  - Transformers
-  - Torch
-  - Soundfile
-  - Sounddevice
-  - Pandas
-  - Keyboard
+1. **Facial Emotion Recognition:**
+   - Detects facial emotions using a pre-trained model.
+   - Provides real-time feedback on detected emotions.
 
+2. **Voice Emotion Recognition:**
+   - Converts speech to text using a speech-to-text model.
+   - Analyzes the text to detect the emotion in the voice.
+
+3. **Music Recommendation:**
+   - Recommends a song based on the detected emotion.
+   - Plays the recommended song with user controls.
+
+## Installation
+
+1. **Clone the Repository:**
+
+    ```bash
+    git clone https://github.com/yourusername/Emotion-Recognition-Music-Recommendation-System.git
+    cd Emotion-Recognition-Music-Recommendation-System
+    ```
+
+2. **Install Dependencies:**
+
+    Make sure you have Python 3.x installed. Then, install the required packages using pip:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Download Models:**
+
+    Ensure that the models are downloaded and placed in the specified directories. Update the paths in the code if necessary.
+
+## Usage
+
+1. **Load Models:**
+
+    The models will be loaded automatically when the script runs.
+
+2. **Run the Program:**
+
+    Execute the script to start the application:
+
+    ```bash
+    python main.py
+    ```
+
+3. **Interact with the Program:**
+
+    - **Facial Emotion Recognition:** Capture a 10-second video to detect facial emotions.
+    - **Voice Emotion Recognition:** Record a 10-second audio clip to detect voice emotions.
+    - **Complex Emotion Recognition:** Combine facial and voice emotion recognition for a more comprehensive result.
+    - **Play Recommended Song:** Based on the detected emotion, a song will be recommended and played.
+
+## Demo
+
+You can view a demonstration of the Emotion Recognition and Music Recommendation System in action by watching the [demo video](https://github.com/satyam9k/EmotionResponsive/blob/main/demo.mp4).
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- Thanks to the developers of the pre-trained models used in this project.
+- Special thanks to the contributors and maintainers of the libraries used.
 

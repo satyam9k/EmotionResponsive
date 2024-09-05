@@ -26,27 +26,6 @@ The Emotion Recognition and Music Recommendation System uses facial and voice em
    - Recommends a song based on the detected emotion.
    - Plays the recommended song with user controls.
 
-## Installation
-
-1. **Clone the Repository:**
-
-    ```bash
-    git clone https://github.com/yourusername/Emotion-Recognition-Music-Recommendation-System.git
-    cd Emotion-Recognition-Music-Recommendation-System
-    ```
-
-2. **Install Dependencies:**
-
-    Make sure you have Python 3.x installed. Then, install the required packages using pip:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Download Models:**
-
-    Ensure that the models are downloaded and placed in the specified directories. Update the paths in the code if necessary.
-
 ## Usage
 
 1. **Load Models:**
@@ -70,7 +49,12 @@ The Emotion Recognition and Music Recommendation System uses facial and voice em
 
 ## Demo
 
-You can view a demonstration of the Emotion Recognition and Music Recommendation System in action by watching the [demo video](https://github.com/satyam9k/EmotionResponsive/blob/main/demo.mp4).
+You can view a demonstration of the Emotion Recognition and Music Recommendation System in action by watching the video below:
+
+<video width="640" height="480" controls>
+  <source src="https://github.com/satyam9k/EmotionResponsive/blob/main/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
 ## License

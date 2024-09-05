@@ -49,12 +49,7 @@ The Emotion Recognition and Music Recommendation System uses facial and voice em
 
 ## Demo
 
-You can view a demonstration of the Emotion Recognition and Music Recommendation System in action by watching the video below:
-
-<video width="640" height="480" controls>
-  <source src="https://github.com/satyam9k/EmotionResponsive/blob/main/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+You can view a demonstration of the Emotion Recognition and Music Recommendation System in action by watching the [demo video](https://github.com/satyam9k/EmotionResponsive/blob/main/demo.mp4).
 
 
 ## License
